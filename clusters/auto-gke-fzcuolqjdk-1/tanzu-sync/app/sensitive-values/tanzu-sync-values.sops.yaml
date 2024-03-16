@@ -1,0 +1,31 @@
+secrets:
+    sops:
+        age_key: ENC[AES256_GCM,data:GZ+EiAwmaOi1VZLKtm2GrizmoyWVagxEtQrGirqZEb5CyN9ZyURQsaXVnmxRYmNymtPcNlzzC9atZ5nrdXVfdQ09HjNj2izfLauX,iv:E2Cc8ZRfFuLwxw1wuo2LLF99gTTrjmdlPT8zADm6hGg=,tag:8Kna4CMNhT+TE47vU4X+bw==,type:str]
+        registry:
+            hostname: ENC[AES256_GCM,data:pC1FWFZ0vC/ba8AovVIEuo7n8zOdjzaNSA==,iv:B5QY4VJ3GozWamW9OEtLOqAHazoaUJVXksp6/rL3k+U=,tag:PiHp4LeQIOrL0e3Gq4cxww==,type:str]
+            username: ENC[AES256_GCM,data:82y+45tFMe0BtGVfOgeQ5e39uJNHJjDUyw==,iv:LYwK2rrTtzdR9fFf6vRbdxYsEDmMQTCq6YIiwRMShG0=,tag:lhErx5L11YdbRPHZ92ON+w==,type:str]
+            password: ENC[AES256_GCM,data:Vr+9aEd+pyJF5gxw+KA=,iv:uAfwbpqniQ6j/BQHdGQlwDRnyDBHTKLmH555FM5gZo8=,tag:HFLS3GKQ3om/1cLM00K7hA==,type:str]
+        git:
+            basic_auth:
+                username: ENC[AES256_GCM,data:MkBv6MC7MB/Lnrw=,iv:LChTTLLpz65HQEDxIEt48BgRY6W0Aw2r/Xd/LjQdbPc=,tag:nTiJUHkGJYzP1zyNzq+4fg==,type:str]
+                password: ENC[AES256_GCM,data:RgQNr7by9obAGFg49JuMCOXO0EhzTr/panY3zgCb4QfADxxOsc0a5Q==,iv:vC3PJzahC7DocN8LVeauG6jJbQckfRhhZ+77cZR1HO0=,tag:Fsy4elizVEXebpeMp9rT0w==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age140kfw9jqh7d63svrgf8rpjaf8mteg507va4s98pnjtl975qe6stqfpaxvv
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBlSUt2anQyQms5cndSUTA0
+            MmdpL2hZUnVBcktPWjN0QWpBWGNVKzhMdGxjCmRRQlJEMUt1dHVSQlMwc2ZYUHV4
+            d3c5ckU3N2ZRTnRFa0ozQjdlRnZZVkUKLS0tIGt2VDBsZWJZYkowdHpKWk8rNnpL
+            S2xuUllrL0l3YmR1R085SENYRzFXYUEK/vu+gqpT3ukSBPtgNdBXaltvMSlcGWbn
+            v+1yXlTHwNXdCQ9UDl3aGky+/qdjr8np4RdnsoRjhV5NapvI5K9L1g==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2024-03-16T22:41:21Z"
+    mac: ENC[AES256_GCM,data:EGNq6SZX3nkP0qiIW+mG9tHds94T1NnSRV0FxXStF9OSHMXvGdRJt9ziwSy2dbCGOx07TdFUU3gs9AjyGMlfSR0jQrm7RgEswdGjX6xu1h5k0ULrnDY8AFtg+Pd9FczuCulhQBhlyuHGG4XpwGknH9fbfQyYXaAZ5jETSSal+Bo=,iv:XtD1IdwEZHK3Da5jL4tD0dWwcYYcDM8Omh6irUF4iW0=,tag:bkJGjHOwipx2mVxVw6unkg==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
